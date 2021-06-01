@@ -15,6 +15,9 @@ var Calculator = /** @class */ (function () {
     Calculator.prototype.divide = function (num1, num2) {
         return num1 / num2;
     };
+    Calculator.prototype.another = function (num1, num2) {
+        return 1;
+    };
     return Calculator;
 }());
 var calculator = new Calculator();
